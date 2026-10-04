@@ -3,7 +3,7 @@ name: Workflow Troubleshooting Lab
 on:
   push:
     branches:
-      - main
+      - develop
   workflow_dispatch:
 
 permissions:
