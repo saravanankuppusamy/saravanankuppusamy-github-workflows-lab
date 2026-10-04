@@ -25,4 +25,6 @@ jobs:
         run: echo "Running on $RUNNER_OS"
 
       - name: Run test
-        run: echo "The test passed!"
+        run: |
+            echo "Starting test..."
+            exit 1
